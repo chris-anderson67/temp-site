@@ -10,7 +10,6 @@
 
 /* etc */
 body {
-    margin: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     background: #eeeeee;
 }
@@ -19,6 +18,7 @@ body {
     max-width: 60em;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 15px;
 }
 
 .intro {
@@ -57,7 +57,7 @@ body, html {
 .bgimg-1 {
   background-image: url("/images/portrait_large.jpg");
   height: 100%;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 .caption {
@@ -86,6 +86,12 @@ h3 {
   color: #111;
 }
 
+.introduction {
+  border: 3px solid #ddd;
+  background: #ddd;
+  margin-bottom: 50px;
+}
+
 .contact-buttons {
   position: absolute;
   left: 0;
@@ -109,12 +115,6 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 1440px) {
-  h1 {
-    size: ;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   .icon-image {
     display: block;
@@ -130,4 +130,12 @@ h3 {
   .caption span.border {
     letter-spacing: 0px;
   }
+  .container {
+    margin-bottom: 100px;
+  }
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: -20px;
 }
